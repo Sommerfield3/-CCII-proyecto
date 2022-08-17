@@ -39,6 +39,6 @@ Luego, dependiendo de los permisos especificados que posee dicho usuario, se le 
   El médico: Puede visualizar las citas que tiene con algún paciente a través del botón "Ver citas".
   El paciente: Puede visualizar las citas que tiene con algún médico "Ver citas".
   El administrador: 
-   -Puede agregar citas en caso de que existan médicos y pacientes registrados accediendo a otra vista luego de presionar el botón mostrado por pantalla "Agregar cita".
-   -Puede agregar médicos a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla "Agregar médico".
-   -Puede agregar pacientes a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla "Agregar paciente".
+    -Puede agregar citas en caso de que existan médicos y pacientes registrados accediendo a otra vista luego de presionar el botón mostrado por pantalla "Agregar cita".
+    -Puede agregar médicos a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla "Agregar médico".
+    -Puede agregar pacientes a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla "Agregar paciente".
