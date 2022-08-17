@@ -1,8 +1,8 @@
 # Ciencia de la Computación II - Proyecto Final
 Este es un programa para la agendación de citas de centros médicos donde se pueden generar ingresos de citas, consultas de citas, ingreso de nuevos pacientes, 
 ingreso de nuevos médicos, eliminación de citas, también se usa el hash [md5](#md5). para el cifrado las claves u contraseñas designadas a la hora de envío a la base de datos.
-Durante el desarrollo del programa se utilizó [MySQL](#MySQL) para el almacenamiento de la información guardada temporalmente dentro de vectores en el programa en una base de datos y para la generación
-de la interfaz de usuario y funcionalidades del código con sintáxis heredada parcialmente de C++ se usó [QT](#QT) 6.3.1.. 
+Durante el desarrollo del programa se utilizó [MySQL](#mysql) para el almacenamiento de la información guardada temporalmente dentro de vectores en el programa en una base de datos y para la generación
+de la interfaz de usuario y funcionalidades del código con sintáxis heredada parcialmente de C++ se usó [Qt](#qt) 6.3.1.. 
 
 ## MySQL
 MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation 
@@ -24,3 +24,4 @@ su nivel de seguridad se ha visto drásticamente reducida, pero no obstante aún
 ## Qt
 Qt es un un software multiplataforma escrito en C++ diseñado para la creación de interfaces gráficas de usuario, así como también de aplicaciones multiplataforma que se ejecutan varias 
 plataformas de software y hardware, como Linux, Windows, macOS, Android o sistemas integrados, con cambios nulos o mínimos en el código. Qt usa C++ de forma nativa y tiene acceso a bases de datosSQL , análisis XML , análisis JSON , administración de subprocesos y soporte de red.
+
