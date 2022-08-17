@@ -4,7 +4,7 @@ ingreso de nuevos médicos, eliminación de citas, también se usa el hash [md5]
 Durante el desarrollo del programa se utilizó [MySQL](#MySQL) para el almacenamiento de la información guardada temporalmente dentro de vectores en el programa en una base de datos y para la generación
 de la interfaz de usuario y funcionalidades del código con sintáxis heredada parcialmente de C++ se usó [QT](#QT) 6.3.1.. 
 
-##MySQL
+## MySQL
 MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation 
 y está considerada como la base de datos de código abierto más popular del mundo. MySQL está escrito en C y C++. Su analizador SQL está escrito en yacc (Yet Another Compiler-Compiler), pero utiliza un analizador léxico casero . MySQL funciona en muchas plataformas de sistema , incluidas AIX , BSDi , FreeBSD , HP-UX ,
 ArcaOS , eComStation , IBM i , IRIX , Linux , macOS , Microsoft Windows , NetBSD , Novell NetWare , OpenBSD , OpenSolaris, OS/2 Warp, 
@@ -21,6 +21,6 @@ Luego de las 64 vueltas, los vectores A, B, C, D, habrán cambiado varias veces 
 bloque de bits de entrada y así sucesivamente mientras se encadenan, el último valor de los vectores A, B, C y D es el resumen de 128 bits del archivo ingresado. Debido a la detección de colisiones (diferentes entradas, mismas salidas)
 su nivel de seguridad se ha visto drásticamente reducida, pero no obstante aún sigue en uso aunque no es recomendado para la trata de información sensible.
 
-##Qt
+## Qt
 Qt es un un software multiplataforma escrito en C++ diseñado para la creación de interfaces gráficas de usuario, así como también de aplicaciones multiplataforma que se ejecutan varias 
 plataformas de software y hardware, como Linux, Windows, macOS, Android o sistemas integrados, con cambios nulos o mínimos en el código. Qt usa C++ de forma nativa y tiene acceso a bases de datosSQL , análisis XML , análisis JSON , administración de subprocesos y soporte de red.
