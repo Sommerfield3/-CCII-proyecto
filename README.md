@@ -31,7 +31,7 @@ Dentro de cada archivo .ui se define el despliegue de la interfaz del usuario us
 Para explicar la funcionalidad de el programa nos apoyamos en la generación de un par de diagramas de las vistas.
 https://jamboard.google.com/d/1lNjInz3dCPMsQiP6g3etwScvUCLl1edCKNsKY59WMew/edit?usp=sharing
 
-## Instrucciones de Qt
+# Instrucciones del programa
 Actualmente solo se puede utilizar si uno tiene previamente instalado el Qt, puesto a que no lanzamos la aplicación de citas médicas, pero en las siguientes líneas se explica el uso:
 
 Inicialmente uno corre el programa y le aparecerá una pantalla indicando un inicio de sesión requerido. Después de ingresar alguno de los usuarios dentro de la tabla usuarios en la base de datos adjunta (el administrador siempre es un usuario prefijado puesto a que él tiene la funcionalidad para generar más usuarios). 
