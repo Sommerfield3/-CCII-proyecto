@@ -6,9 +6,9 @@ de la interfaz de usuario y funcionalidades del código con sintáxis heredada p
 
 ## MySQL
 MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation 
-y está considerada como la base de datos de código abierto más popular del mundo. MySQL está escrito en C y C++. Su analizador SQL está escrito en yacc (Yet Another Compiler-Compiler), pero utiliza un analizador léxico casero . MySQL funciona en muchas plataformas de sistema , incluidas AIX , BSDi , FreeBSD , HP-UX ,
-ArcaOS , eComStation , IBM i , IRIX , Linux , macOS , Microsoft Windows , NetBSD , Novell NetWare , OpenBSD , OpenSolaris, OS/2 Warp, 
-QNX , Oracle Solaris , Symbian , SunOS , SCO OpenServer , SCO UnixWare , Sanos y Tru64 . También existe un puerto de MySQL a OpenVMS.
+y está considerada como la base de datos de código abierto más popular del mundo. MySQL está escrito en C y C++. Su analizador SQL está escrito en yacc (Yet Another Compiler-Compiler), pero utiliza un analizador léxico casero. MySQL funciona en muchas plataformas de sistema, incluidas AIX, BSDi, FreeBSD, HP-UX,
+ArcaOS, eComStation, IBM i, IRIX, Linux, macOS, Microsoft Windows, NetBSD, Novell NetWare, OpenBSD, OpenSolaris, OS/2 Warp, 
+QNX, Oracle Solaris, Symbian, SunOS, SCO OpenServer, SCO UnixWare, Sanos y Tru64. También existe un puerto de MySQL a OpenVMS.
 
 ## MD5
 El Message Digest 5 es un algoritmo de reducción criptográfico de 128 bits (este tamaño es independiente del tamaño del archivo) de alta velocidad
