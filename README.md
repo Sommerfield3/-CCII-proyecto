@@ -36,9 +36,9 @@ Actualmente solo se puede utilizar si uno tiene previamente instalado el Qt, pue
 
 Inicialmente uno corre el programa y le aparecerá una pantalla indicando un inicio de sesión requerido. Después de ingresar alguno de los usuarios dentro de la tabla usuarios en la base de datos adjunta (el administrador siempre es un usuario prefijado puesto a que él tiene la funcionalidad para generar más usuarios). 
 Luego, dependiendo de los permisos especificados que posee dicho usuario, se le redirecciona a una diferente vista con sus respectivas funcionalidades:
-*El médico: Puede visualizar las citas que tiene con algún paciente a través del botón "Ver citas".
-*El paciente: Puede visualizar las citas que tiene con algún médico "Ver citas".
-*El administrador: 
+* El médico: Puede visualizar las citas que tiene con algún paciente a través del botón "Ver citas".
+* El paciente: Puede visualizar las citas que tiene con algún médico "Ver citas".
+* El administrador: 
     -Puede agregar citas en caso de que existan médicos y pacientes registrados accediendo a otra vista luego de presionar el botón mostrado por pantalla "Agregar cita".
     -Puede agregar médicos a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla "Agregar médico".
     -Puede agregar pacientes a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla "Agregar paciente".
