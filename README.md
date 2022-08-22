@@ -44,4 +44,5 @@ Luego, dependiendo de los permisos especificados que posee dicho usuario, se le 
     - Puede agregar citas en caso de que existan médicos y pacientes registrados accediendo a otra vista luego de presionar el botón mostrado por pantalla ___"Agregar cita"___.
     - Puede agregar médicos a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla ___"Agregar médico"___.
     - Puede agregar pacientes a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla ___"Agregar paciente"___.
+
 Los métodos de visualizar citas dentro de la vista del médico y el paciente, pueden direccionarse de acuerdo al calendario que se genera en la parte derecha de la ventana, al hacer click cobre un día determinado obtendrá una pequeña tabla donde aparecen las citas que están o estuvieron programadas para ese día, si no hay citas en ese día, no aparecerá nada, cuando tiene la tabla puede hacer click sobre una de la filas y se mostarán los datos respectos a esa fila en los campos de la essquina superior izquierda.
