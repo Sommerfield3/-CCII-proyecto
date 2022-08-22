@@ -28,17 +28,20 @@ plataformas de software y hardware, como Linux, Windows, macOS, Android o sistem
 # Desarrollo del proyecto
 Se inicio generando un nuevo proyecto en Qt con construcción basada en cmake utilizando diversos archivos cada vista incluyendo un archivo tipo cabecera (.h), un archivo .cpp como recurso para la implementación de las funcionalidades y un archivo ".ui" en formato en XML que guarda la interfaz de usuario mostrada.
 Dentro de cada archivo .ui se define el despliegue de la interfaz del usuario usando una sintaxis similar a la de HTML para el posterior envío de funciones tomadas como metodos slot en el archivo cabecera (.h) correspondiente que luego su funcionalidad es definida importante el archivo cabecera al archivo .cpp de la vista para definir la funcionalidad de los métodos. Cabe aclarar que previamente en los archivos cabecera obtenemos (herencia) funcionalidades nativas de Qt que nos permiten interactuar con el entorno dentro de la interfaz diseñada dependiendo de los objetos generados. Para que las clases funcionales puedan acceder a las vistas, generamos un puntero a la vista y en este caso un objeto dde tipo QSQLDatabase que nos permite establecer una conexión a las de datos de tipo SQL.
-Para explicar la funcionalidad de el programa nos apoyamos en la generación de un par de diagramas de las vistas.
-https://jamboard.google.com/d/1lNjInz3dCPMsQiP6g3etwScvUCLl1edCKNsKY59WMew/edit?usp=sharing
+Para explicar la funcionalidad de el programa nos apoyamos en la generación de un par de [Diagramas de las vistas](https://jamboard.google.com/d/1lNjInz3dCPMsQiP6g3etwScvUCLl1edCKNsKY59WMew/edit?usp=sharing)
 
 # Instrucciones del programa
-Actualmente solo se puede utilizar si uno tiene previamente instalado el Qt, puesto a que no lanzamos la aplicación de citas médicas, pero en las siguientes líneas se explica el uso:
+Actualmente solo se puede utilizar si uno tiene previamente instalado el Qt, puesto a que no lanzamos la aplicación de citas médicas, en la siguienntes líneas explicaremos un poco del proceso de instalación, tiene que ir a la página principal de [Qt](https://www.qt.io/download-open-source?hsCtaTracking=9f6a2170-a938-42df-a8e2-a9f0b1d6cdce%7C6cb0de4f-9bb5-4778-ab02-bfb62735f3e5) y descargar la versión 6.3.1 que es la que usamos (es necesario que tenga una cuenta, pero es fácil de crear) , puede ser superior, pero recomendamos esta por ser estable. Durante la instalación, puede instalar las herramientas base, pero no es necesario descargar el Qt Design Studio si desea ahorrar espacio. Por último, una vez ya instalado el programa, para el funcionamiento de nuestro proyecto necesita tener un sistema de gestión de base de datos en su equipo, recomendamos que sea MySQL, también necesita configurar para que pueda acceder a la base de datos, el proceso de configuración se puede seguir del siguiente tutorial [link](https://www.youtube.com/watch?v=qeErME39zvw&t=2s). Con esto ya debería poder ejecutar el programa, no olvidar importar la base de datos incluida en los archivos de nuestro proyecto.
 
-Inicialmente uno corre el programa y le aparecerá una pantalla indicando un inicio de sesión requerido. Después de ingresar alguno de los usuarios dentro de la tabla usuarios en la base de datos adjunta (el administrador siempre es un usuario prefijado puesto a que él tiene la funcionalidad para generar más usuarios). 
+A continuación explicaremos la ejecución del programa:
+
+Inicialmente uno corre el programa y le aparecerá una pantalla indicando un inicio de sesión requerido. Después de ingresar alguno de los usuarios dentro de la tabla usuarios en la base de datos adjunta (el administrador siempre es un usuario prefijado puesto a que él tiene la funcionalidad para generar más usuarios).
+NOTA: La clave por defecto (por ahora) dentro de nuestra base de datos es **123**
 Luego, dependiendo de los permisos especificados que posee dicho usuario, se le redirecciona a una diferente vista con sus respectivas funcionalidades:
-* El médico: Puede visualizar las citas que tiene con algún paciente a través del botón "Ver citas".
-* El paciente: Puede visualizar las citas que tiene con algún médico "Ver citas".
-* El administrador: 
-    - Puede agregar citas en caso de que existan médicos y pacientes registrados accediendo a otra vista luego de presionar el botón mostrado por pantalla "Agregar cita".
-    - Puede agregar médicos a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla "Agregar médico".
-    - Puede agregar pacientes a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla "Agregar paciente".
+* **El médico:** Puede visualizar las citas que tiene con algún paciente a través del botón "Ver citas".
+* **El paciente:** Puede visualizar las citas que tiene con algún médico "Ver citas".
+* **El administrador:** 
+    - Puede agregar citas en caso de que existan médicos y pacientes registrados accediendo a otra vista luego de presionar el botón mostrado por pantalla ___"Agregar cita"___.
+    - Puede agregar médicos a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla ___"Agregar médico"___.
+    - Puede agregar pacientes a la base de datos accediendo a otra vista para añadir los datos requeridos después de presionar el botón mostrado en pantalla ___"Agregar paciente"___.
+Los métodos de visualizar citas dentro de la vista del médico y el paciente, pueden direccionarse de acuerdo al calendario que se genera en la parte derecha de la ventana, al hacer click cobre un día determinado obtendrá una pequeña tabla donde aparecen las citas que están o estuvieron programadas para ese día, si no hay citas en ese día, no aparecerá nada, cuando tiene la tabla puede hacer click sobre una de la filas y se mostarán los datos respectos a esa fila en los campos de la essquina superior izquierda.
