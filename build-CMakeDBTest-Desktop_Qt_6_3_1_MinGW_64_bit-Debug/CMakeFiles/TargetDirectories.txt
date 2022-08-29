@@ -1,5 +1,0 @@
-D:/QT_projects/build-CMakeDBTest-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/CMakeDBTest.dir
-D:/QT_projects/build-CMakeDBTest-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-D:/QT_projects/build-CMakeDBTest-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-D:/QT_projects/build-CMakeDBTest-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/CMakeDBTest_autogen_timestamp_deps.dir
-D:/QT_projects/build-CMakeDBTest-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/CMakeDBTest_autogen.dir
